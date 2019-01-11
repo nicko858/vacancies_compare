@@ -6,6 +6,7 @@ Script gets data from the following sites-api:
 - [hh.ru](https://api.hh.ru)
 - [superjob.ru](https://api.superjob.ru) 
 
+![alt text](https://github.com/nicko858/vacancies_compare/Выделение_019.png)
 
 ### How to install
 Python3 should be already installed.
