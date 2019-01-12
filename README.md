@@ -12,7 +12,7 @@ Script gets data from the following sites-api:
 Python3 should be already installed.
 ```bash
 $ git clone https://github.com/nicko858/vacancies_compare.git
-$ cd fiasko_bro
+$ cd vacancies_compare
 $ pip install -r requirements.txt
 ```
 
