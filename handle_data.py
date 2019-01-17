@@ -66,7 +66,7 @@ def predict_rub_salary_for_headhunter(vacancy):
     try:
         salary = vacancy["salary"]
         currency = salary["currency"]
-    except (TypeError, KeyError):
+    except (TypeError, KeyError):  # salary may be None-object
         return
     if not salary or currency != "RUR":
         return
@@ -79,7 +79,7 @@ def predict_rub_salary_for_superjob(vacancy):
         currency = vacancy["currency"]
         salary_from = vacancy["payment_from"]
         salary_to = vacancy["payment_to"]
-    except (TypeError, KeyError):
+    except (TypeError, KeyError):  # currency may be None-object
         return
     if not (salary_from and salary_to) or currency != "rub":
         return
